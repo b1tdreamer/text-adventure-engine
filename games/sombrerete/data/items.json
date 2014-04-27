@@ -1,0 +1,15 @@
+{
+  "tirachinas": {
+    "room": "buzones",
+    "look": "uno",
+    "image": "dos",
+    "message": "He recogido el tirachinas, algo encontraré para usar de munición.",
+    "inc": "score@5"
+  },
+  "bicicleta": {
+    "room": "patioCentral",
+    "image": "bicicleta.jpg",
+    "look": "Purple haze, mi querida bicicleta, de más de una me has sacado.",
+    "message": "Has cogido la bici."
+  }
+}
