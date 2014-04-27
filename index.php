@@ -10,7 +10,7 @@
 <body>
 
 	<div id="page">
-		<h1>Innocent Hill</h1>
+		<h1>La corrala de Sombrerete</h1>
 		<div id="img"><img src="" alt=" " /></div>
 		<div id="pretext"></div>
 		<div id="text"></div>
