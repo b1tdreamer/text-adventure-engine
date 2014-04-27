@@ -15,7 +15,7 @@
 	define('SECURE_JSON', 1);
 
 	// Current game folder. By default, 'default' folder. Change for play other game
-	define('CURRENT_GAME', 'default');
+	define('CURRENT_GAME', 'sombrerete');
 
 	// Autodiscover folder path game. Use current URL without 'master' (-6)
 	if (!defined('APPDIR'))
