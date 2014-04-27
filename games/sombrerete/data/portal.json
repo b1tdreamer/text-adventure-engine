@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "portal",
+    "image": "portalCorrala.jpg",
+    "description": "Estás enfrente del portal de la corrala. Reina la tranquilidad y un ambiente lúgubre y desolado. El frio acecha en los rincones de la calle, mostrando un panorama inquietante. Al este se accede a la corrala."
+  },
+  "data": {
+    "exits": {
+      "sur": "esquinaFarmacia",
+      "este": {
+        "required": "codigoPortal",
+        "excuse": "Me da mal rollo, creo que aún no estoy listo para entrar...",
+        "target": "pasilloCorrala"
+      }
+    }
+  },
+  "synonyms": {
+    "puerta": ["porton"],
+    "carteles": ["posters", "anuncios"],
+    "contenedores": ["continers"],
+    "edificio": ["bloque"]
+  },
+  "mirar": {
+    "puerta": "Una puerta de barrotes de hierro y cristal. A lo lejos puedes ver varios buzones.",
+    "contenedores": "Llenos de basura, desprenden un olor ácido y pútrido. Por lo demás nada demasiado destacable.",
+    "carteles": "Varios carteles anuncian el próximo concierto de Ian Fakoli III.",
+    "edificio": "Es antiguo, de comienzos de 1900, parece haber sido reformado varias veces."
+  }
+}
