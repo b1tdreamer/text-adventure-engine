@@ -1,0 +1,61 @@
+{
+  "info": {
+    "name": "naveCentral",
+    "image": "naveCentral.jpg",
+    "description": "Esta parece la zona más vieja del pueblo. Varias casas antiguas aparecen a lo largo de la calle, y sus puertas, cerradas. Algunas grandes macetas adornan la estancia. Un poste de madera sujeta un cartel."
+  },
+  "data": {
+    "exits": {
+      "sur": "entrada",
+      "norte": "galeriaPostnave",
+      "este": "wc1"
+    }
+  },
+  "synonyms": {
+    "casas": ["casas antiguas", "casa"],
+    "suelo": "abajo"
+  },
+  "mirar": {
+    "casas": "El aspecto de las casas es muy anticuado. La mayoría de las puertas están cerradas a cal y canto.",
+    "suelo": "El suelo deteriorado y lleno de baches, le da a la calle un aspecto ideal para atraer turistas... Lástima que esté tan deshabitado...",
+    "cartel": "Dice -La mansión de Caloire",
+    "casas antiguas": "Las casas parecen abandonadas o cerradas por alguna extraña razón... Es sobrecogedor...",
+    "pared": "Las paredes de las casas tienen surcos y parecen estar inacabadas.",
+    "puertas": "Las puertas de las casas están cerradas.",
+    "macetas": "Algunos arbustos y plantas en las diferentes macetas.",
+    "poste": "Un alto poste de madera que sujeta un cartel frente a lo que parece una taberna.",
+    "arbustos": "Plantas que adornan la fachada de los distintos lugares de la calle.",
+    "banco": "Un banco de madera, tiene una pintada...",
+    "pintada": {
+      "message": "Tiene un graffiti que pone: —Croatoan",
+      "setAction": "croatoan_seen",
+      "inc": "score@5"
+    },
+    "ventanas": "Ventanas cerradas. Como cuando en el oeste llega el temible forajido y todos es esconden... No veo a nadie..."
+  },
+  "hablar": {
+    "hippie": {
+      "0": {
+        "conversation" : [{
+          "m": "¡Hola, amigo! ¿Qué se trae por aquí?",
+          "r": "Cogito ergo sum."},{
+          "m": "¿Cómo?",
+          "r": "Nada, nada..."}
+      ],
+        "child": "soon..."
+      },
+      "1": {
+        "conversation" : [{
+          "m": "¿Dónde está todo el mundo?",
+          "r": "No tengo ni idea"
+      }]
+      },
+      "2": {
+        "conversation" : [{
+          "m": "Me llamo Guybrush Threepwood y quiero ser pira... erm... ¿Me está escuchando?",
+          "r": "No estoy para perder el tiempo, joven..."
+        }]
+      }
+    }
+  }
+}
